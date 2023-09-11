@@ -1,0 +1,44 @@
+.list-item {
+
+}
+.lists {
+    cursor: pointer;
+}
+.movie-count {
+    position: absolute;
+    left: 600px;
+    width: 200px;
+    border: 0;
+    background-color: #fff;
+    padding-left:90px;
+}
+.movie-count:focus {
+    outline: none;
+
+}
+.btns {
+    width: 100px;
+    gap:.6rem;
+}
+.btn-cookie, .btn-trash, .btn-star {
+    border: 0;
+}
+.btn-cookie i {
+    color: orange;
+}
+.btn-trash i {
+    color: red;
+}
+.btn-star {
+    display: none;
+}
+.like {
+    display: flex;
+}
+.btn-star i {
+    color: yellow;
+}
+.list-group-item.favourite .list-group-item-label,
+.list-group-item.favourite .list-group-item-input{
+    color: #FF851B
+}

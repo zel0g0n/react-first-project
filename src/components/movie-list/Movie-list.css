@@ -1,0 +1,10 @@
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #fcfaf5;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgb(0,0,0,.3);
+    margin-top: 1.5rem;
+}
